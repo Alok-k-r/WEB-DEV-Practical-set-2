@@ -1,0 +1,2 @@
+2)create a react application demonstrating use of the context API requirement(create a context ,
+provide a data from the parent components , consume the data in nested child component).
