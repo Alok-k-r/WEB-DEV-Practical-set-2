@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real time Name Display</title>
+</head>
+<body>
+  <h2>Enter your name:</h2>
+  <input type="text" id="nameInput" placeholder="Type your name here">
+  
+  <h3>Your name is:</h3>
+  <p id="displayName"></p>
+
+  <script>
+    const inputField = document.getElementById("nameInput");
+    const display = document.getElementById("displayName");
+
+    inputField.addEventListener("input", function() {
+      display.textContent = inputField.value;
+    });
+  </script>
+</body>
+</html>
+
+

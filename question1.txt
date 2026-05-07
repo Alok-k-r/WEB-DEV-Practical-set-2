@@ -1,0 +1,2 @@
+1)create a input an input field where a user enters there name.
+ display the entered name in real time below the input field as the user types.
